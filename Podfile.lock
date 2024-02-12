@@ -1,0 +1,29 @@
+PODS:
+  - FMDB (2.7.2):
+    - FMDB/standard (= 2.7.2)
+  - FMDB/standard (2.7.2)
+  - Groot/ObjC (3.0.1)
+  - IQKeyboardManager (4.0.1)
+  - MBProgressHUD (1.1.0)
+  - MIKMIDI (1.6.2)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - FMDB
+  - Groot/ObjC
+  - IQKeyboardManager (= 4.0.1)
+  - MBProgressHUD
+  - MIKMIDI
+  - SVProgressHUD (= 2.0.3)
+
+SPEC CHECKSUMS:
+  FMDB: 6198a90e7b6900cfc046e6bc0ef6ebb7be9236aa
+  Groot: a668afbcf0be88d76c0a26c714cfa4638ceaca66
+  IQKeyboardManager: 0c11a0cb402a621f7aa1aff506f60ab6d2388969
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MIKMIDI: fa6df0bfa8427a0dc9e179bcf068b2b4b6747e6c
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: 4379d7d07874d3bed82fe827bb4a4bfb377bfd5a
+
+COCOAPODS: 1.2.1

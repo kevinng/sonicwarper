@@ -1,0 +1,1390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38F64769F556AEFE554A2A14 /* libPods-SonicwarperTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A706C6FC70F0A0DD00B643A /* libPods-SonicwarperTests.a */; };
+		910112411EA1429B003DCCD7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9101123F1EA1429B003DCCD7 /* Montserrat-Bold.ttf */; };
+		910112421EA1429B003DCCD7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 910112401EA1429B003DCCD7 /* Montserrat-Regular.ttf */; };
+		910112461EA142B0003DCCD7 /* TraktorProMIDIDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112441EA142B0003DCCD7 /* TraktorProMIDIDictionary.m */; };
+		910112491EA142D5003DCCD7 /* FullDeckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112481EA142D5003DCCD7 /* FullDeckView.m */; };
+		9101124C1EA142E4003DCCD7 /* FullMasterLevelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101124B1EA142E4003DCCD7 /* FullMasterLevelsView.m */; };
+		9101124F1EA142F2003DCCD7 /* FullMotionLevelsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101124E1EA142F2003DCCD7 /* FullMotionLevelsView.m */; };
+		910112521EA14300003DCCD7 /* FullTempoClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112511EA14300003DCCD7 /* FullTempoClockView.m */; };
+		910112551EA1431A003DCCD7 /* BowswitchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112541EA1431A003DCCD7 /* BowswitchView.m */; };
+		910112581EA14328003DCCD7 /* EditModeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112571EA14328003DCCD7 /* EditModeView.m */; };
+		9101125B1EA14350003DCCD7 /* HorizontalMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101125A1EA14350003DCCD7 /* HorizontalMotionView.m */; };
+		9101125E1EA1435F003DCCD7 /* LevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101125D1EA1435F003DCCD7 /* LevelView.m */; };
+		910112611EA14374003DCCD7 /* OnOffView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112601EA14374003DCCD7 /* OnOffView.m */; };
+		910112641EA14384003DCCD7 /* PercentageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112631EA14384003DCCD7 /* PercentageView.m */; };
+		910112671EA14395003DCCD7 /* TempoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112661EA14395003DCCD7 /* TempoView.m */; };
+		9101126A1EA143A6003DCCD7 /* TrackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112691EA143A6003DCCD7 /* TrackView.m */; };
+		9101126D1EA143BA003DCCD7 /* VerticalMotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101126C1EA143BA003DCCD7 /* VerticalMotionView.m */; };
+		910112701EA144E0003DCCD7 /* ButtonBehaviors.m in Sources */ = {isa = PBXBuildFile; fileRef = 9101126F1EA144E0003DCCD7 /* ButtonBehaviors.m */; };
+		910112731EA144ED003DCCD7 /* MotionEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112721EA144ED003DCCD7 /* MotionEngine.m */; };
+		910112761EA144F9003DCCD7 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 910112751EA144F9003DCCD7 /* Settings.m */; };
+		910C49791FEA9EEA00D41374 /* Sonicwarper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 910C49771FEA9EEA00D41374 /* Sonicwarper.xcdatamodeld */; };
+		91184EE91C1F2C4E00A83A52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91184EE81C1F2C4E00A83A52 /* main.m */; };
+		91184EEC1C1F2C4E00A83A52 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91184EEB1C1F2C4E00A83A52 /* AppDelegate.m */; };
+		91184EF71C1F2C4E00A83A52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91184EF61C1F2C4E00A83A52 /* Assets.xcassets */; };
+		91184EFA1C1F2C4E00A83A52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91184EF81C1F2C4E00A83A52 /* LaunchScreen.storyboard */; };
+		91184F051C1F2C4E00A83A52 /* SonicwarperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91184F041C1F2C4E00A83A52 /* SonicwarperTests.m */; };
+		91184F101C1F2C4E00A83A52 /* SonicwarperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91184F0F1C1F2C4E00A83A52 /* SonicwarperUITests.m */; };
+		912FE8DE1EA7AE7400669314 /* BehaviorTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8DD1EA7AE7400669314 /* BehaviorTypeViewController.m */; };
+		912FE8E41EA7B11E00669314 /* MotionTypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8E31EA7B11E00669314 /* MotionTypeViewController.m */; };
+		912FE8E71EA7B16400669314 /* ReverseMappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8E61EA7B16400669314 /* ReverseMappingViewController.m */; };
+		912FE8EA1EA7B23A00669314 /* StartingMIDICCValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8E91EA7B23A00669314 /* StartingMIDICCValueViewController.m */; };
+		912FE8ED1EA7B27A00669314 /* MIDIChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8EC1EA7B27A00669314 /* MIDIChannelViewController.m */; };
+		912FE8F01EA7B2AA00669314 /* MIDICCControllerNoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8EF1EA7B2AA00669314 /* MIDICCControllerNoViewController.m */; };
+		912FE8F31EA7B2D200669314 /* MIDICCValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8F21EA7B2D200669314 /* MIDICCValueViewController.m */; };
+		912FE8F91EA7B34E00669314 /* MIDITypeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8F81EA7B34E00669314 /* MIDITypeViewController.m */; };
+		912FE8FC1EA7B3AA00669314 /* MIDINoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8FB1EA7B3AA00669314 /* MIDINoteViewController.m */; };
+		912FE8FF1EA7B3DF00669314 /* MIDIVelocityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912FE8FE1EA7B3DF00669314 /* MIDIVelocityViewController.m */; };
+		914637121EA201A3000DCD84 /* BehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914637111EA201A3000DCD84 /* BehaviorViewController.m */; };
+		914637181EA20E5F000DCD84 /* StaticDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914637171EA20E5F000DCD84 /* StaticDataTableViewController.m */; };
+		917B9CD31FD6CAD700707F99 /* Mappings.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B9CD11FD6CAD700707F99 /* Mappings.m */; };
+		917B9CDA1FD7E8B700707F99 /* MIDINoteOnOffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B9CD41FD7E8B600707F99 /* MIDINoteOnOffViewController.m */; };
+		917B9CDB1FD7E8B700707F99 /* NextMIDINoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B9CD71FD7E8B700707F99 /* NextMIDINoteViewController.m */; };
+		917B9CDC1FD7E8B700707F99 /* ContinueFromLastCCValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B9CD91FD7E8B700707F99 /* ContinueFromLastCCValueViewController.m */; };
+		917B9CE51FDA771000707F99 /* Sample Mapping in Resources */ = {isa = PBXBuildFile; fileRef = 917B9CE41FDA771000707F99 /* Sample Mapping */; };
+		917F56A71DC4F9C600FE7CE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 917F56A61DC4F9C600FE7CE3 /* Main.storyboard */; };
+		91AD4ED11EB25F34002812D9 /* ColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4ED01EB25F34002812D9 /* ColorCell.m */; };
+		91AD4ED41EB2625C002812D9 /* TextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4ED31EB2625C002812D9 /* TextCell.m */; };
+		91AD4ED81EB27485002812D9 /* ButtonLooks.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4ED71EB27485002812D9 /* ButtonLooks.m */; };
+		91AD4EDB1EB2F5F9002812D9 /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91AD4EDA1EB2F5F9002812D9 /* DataController.m */; };
+		91D8E2C01EB8D6B400AD048B /* MIDIEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D8E2BF1EB8D6B400AD048B /* MIDIEngine.m */; };
+		91F156411EA141C800C9DC88 /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1562E1EA141C800C9DC88 /* ColorViewController.m */; };
+		91F156421EA141C800C9DC88 /* ConfigureButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156301EA141C800C9DC88 /* ConfigureButtonViewController.m */; };
+		91F156461EA141C800C9DC88 /* MainLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156381EA141C800C9DC88 /* MainLabelViewController.m */; };
+		91F156471EA141C800C9DC88 /* NewConditionalBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1563A1EA141C800C9DC88 /* NewConditionalBehaviorViewController.m */; };
+		91F156481EA141C800C9DC88 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1563C1EA141C800C9DC88 /* SettingsViewController.m */; };
+		91F156491EA141C800C9DC88 /* SmallLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1563E1EA141C800C9DC88 /* SmallLabelViewController.m */; };
+		91F1564A1EA141C800C9DC88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156401EA141C800C9DC88 /* ViewController.m */; };
+		91F156551EA141DE00C9DC88 /* Fonts+Sonicwarper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1564C1EA141DE00C9DC88 /* Fonts+Sonicwarper.m */; };
+		91F156561EA141DE00C9DC88 /* NSString+Sonicwarper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1564E1EA141DE00C9DC88 /* NSString+Sonicwarper.m */; };
+		91F156571EA141DE00C9DC88 /* UIColor+Sonicwarper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156501EA141DE00C9DC88 /* UIColor+Sonicwarper.m */; };
+		91F156581EA141DE00C9DC88 /* UIImage+Sonicwarper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156521EA141DE00C9DC88 /* UIImage+Sonicwarper.m */; };
+		91F156591EA141DE00C9DC88 /* UIView+Sonicwarper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156541EA141DE00C9DC88 /* UIView+Sonicwarper.m */; };
+		91F1565C1EA141F300C9DC88 /* ButtonLook.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1565B1EA141F300C9DC88 /* ButtonLook.m */; };
+		91F1565F1EA1420300C9DC88 /* ButtonBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F1565E1EA1420300C9DC88 /* ButtonBehavior.m */; };
+		91F156621EA1421200C9DC88 /* MotionMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F156611EA1421200C9DC88 /* MotionMapping.m */; };
+		91F3B1311FC9DEE70086E9AA /* NextMotionMappingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F3B1301FC9DEE70086E9AA /* NextMotionMappingViewController.m */; };
+		E15BB3A964E8697BED7B4145 /* libPods-SonicwarperUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DAA009A6C7835B24544A6C /* libPods-SonicwarperUITests.a */; };
+		E21FBA5366B33B5A6A39416E /* libPods-Sonicwarper.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 980EE604F1D88D5B5102ADBA /* libPods-Sonicwarper.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91184F011C1F2C4E00A83A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91184EDC1C1F2C4D00A83A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91184EE31C1F2C4D00A83A52;
+			remoteInfo = Sonicwarper;
+		};
+		91184F0C1C1F2C4E00A83A52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91184EDC1C1F2C4D00A83A52 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91184EE31C1F2C4D00A83A52;
+			remoteInfo = Sonicwarper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A706C6FC70F0A0DD00B643A /* libPods-SonicwarperTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SonicwarperTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27DAA009A6C7835B24544A6C /* libPods-SonicwarperUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SonicwarperUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39DCBF2E842826EA42F33BEE /* Pods-Sonicwarper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sonicwarper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sonicwarper/Pods-Sonicwarper.debug.xcconfig"; sourceTree = "<group>"; };
+		536E161B26D2BCC8468F8CE2 /* Pods-SonicwarperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicwarperTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonicwarperTests/Pods-SonicwarperTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C672293AAD9F2C177AF17AC /* Pods-SonicwarperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicwarperUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonicwarperUITests/Pods-SonicwarperUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9101123F1EA1429B003DCCD7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "Sonicwarper/Resources/Fonts/Montserrat-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		910112401EA1429B003DCCD7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "Sonicwarper/Resources/Fonts/Montserrat-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		910112431EA142B0003DCCD7 /* TraktorProMIDIDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TraktorProMIDIDictionary.h; path = "Resources/Traktor MIDI Dictionary/TraktorProMIDIDictionary.h"; sourceTree = "<group>"; };
+		910112441EA142B0003DCCD7 /* TraktorProMIDIDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TraktorProMIDIDictionary.m; path = "Resources/Traktor MIDI Dictionary/TraktorProMIDIDictionary.m"; sourceTree = "<group>"; };
+		910112451EA142B0003DCCD7 /* TraktorProMIDIMessageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TraktorProMIDIMessageConstants.h; path = "Resources/Traktor MIDI Dictionary/TraktorProMIDIMessageConstants.h"; sourceTree = "<group>"; };
+		910112471EA142D5003DCCD7 /* FullDeckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullDeckView.h; path = "Views/Full Components/Full Deck View/FullDeckView.h"; sourceTree = "<group>"; };
+		910112481EA142D5003DCCD7 /* FullDeckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullDeckView.m; path = "Views/Full Components/Full Deck View/FullDeckView.m"; sourceTree = "<group>"; };
+		9101124A1EA142E4003DCCD7 /* FullMasterLevelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullMasterLevelsView.h; path = "Views/Full Components/Full Master Levels/FullMasterLevelsView.h"; sourceTree = "<group>"; };
+		9101124B1EA142E4003DCCD7 /* FullMasterLevelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullMasterLevelsView.m; path = "Views/Full Components/Full Master Levels/FullMasterLevelsView.m"; sourceTree = "<group>"; };
+		9101124D1EA142F2003DCCD7 /* FullMotionLevelsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullMotionLevelsView.h; path = "Views/Full Components/Full Motion Levels/FullMotionLevelsView.h"; sourceTree = "<group>"; };
+		9101124E1EA142F2003DCCD7 /* FullMotionLevelsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullMotionLevelsView.m; path = "Views/Full Components/Full Motion Levels/FullMotionLevelsView.m"; sourceTree = "<group>"; };
+		910112501EA14300003DCCD7 /* FullTempoClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FullTempoClockView.h; path = "Views/Full Components/Full Tempo Clock/FullTempoClockView.h"; sourceTree = "<group>"; };
+		910112511EA14300003DCCD7 /* FullTempoClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FullTempoClockView.m; path = "Views/Full Components/Full Tempo Clock/FullTempoClockView.m"; sourceTree = "<group>"; };
+		910112531EA1431A003DCCD7 /* BowswitchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BowswitchView.h; path = "Views/Individual Components/Bowswitch/BowswitchView.h"; sourceTree = "<group>"; };
+		910112541EA1431A003DCCD7 /* BowswitchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BowswitchView.m; path = "Views/Individual Components/Bowswitch/BowswitchView.m"; sourceTree = "<group>"; };
+		910112561EA14328003DCCD7 /* EditModeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditModeView.h; path = "Views/Individual Components/Edit Mode/EditModeView.h"; sourceTree = "<group>"; };
+		910112571EA14328003DCCD7 /* EditModeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditModeView.m; path = "Views/Individual Components/Edit Mode/EditModeView.m"; sourceTree = "<group>"; };
+		910112591EA14350003DCCD7 /* HorizontalMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalMotionView.h; path = "Views/Individual Components/Horizontal Motion/HorizontalMotionView.h"; sourceTree = "<group>"; };
+		9101125A1EA14350003DCCD7 /* HorizontalMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalMotionView.m; path = "Views/Individual Components/Horizontal Motion/HorizontalMotionView.m"; sourceTree = "<group>"; };
+		9101125C1EA1435F003DCCD7 /* LevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LevelView.h; path = "Views/Individual Components/Level/LevelView.h"; sourceTree = "<group>"; };
+		9101125D1EA1435F003DCCD7 /* LevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LevelView.m; path = "Views/Individual Components/Level/LevelView.m"; sourceTree = "<group>"; };
+		9101125F1EA14374003DCCD7 /* OnOffView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnOffView.h; path = "Views/Individual Components/On : Off/OnOffView.h"; sourceTree = "<group>"; };
+		910112601EA14374003DCCD7 /* OnOffView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OnOffView.m; path = "Views/Individual Components/On : Off/OnOffView.m"; sourceTree = "<group>"; };
+		910112621EA14384003DCCD7 /* PercentageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PercentageView.h; path = "Views/Individual Components/Percentage/PercentageView.h"; sourceTree = "<group>"; };
+		910112631EA14384003DCCD7 /* PercentageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PercentageView.m; path = "Views/Individual Components/Percentage/PercentageView.m"; sourceTree = "<group>"; };
+		910112651EA14395003DCCD7 /* TempoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TempoView.h; path = "Views/Individual Components/Tempo/TempoView.h"; sourceTree = "<group>"; };
+		910112661EA14395003DCCD7 /* TempoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TempoView.m; path = "Views/Individual Components/Tempo/TempoView.m"; sourceTree = "<group>"; };
+		910112681EA143A6003DCCD7 /* TrackView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrackView.h; path = "Views/Individual Components/Track/TrackView.h"; sourceTree = "<group>"; };
+		910112691EA143A6003DCCD7 /* TrackView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrackView.m; path = "Views/Individual Components/Track/TrackView.m"; sourceTree = "<group>"; };
+		9101126B1EA143BA003DCCD7 /* VerticalMotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalMotionView.h; path = "Views/Individual Components/Vertical Motion/VerticalMotionView.h"; sourceTree = "<group>"; };
+		9101126C1EA143BA003DCCD7 /* VerticalMotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalMotionView.m; path = "Views/Individual Components/Vertical Motion/VerticalMotionView.m"; sourceTree = "<group>"; };
+		9101126E1EA144E0003DCCD7 /* ButtonBehaviors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonBehaviors.h; path = "Singletons/Button Behaviors/ButtonBehaviors.h"; sourceTree = "<group>"; };
+		9101126F1EA144E0003DCCD7 /* ButtonBehaviors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonBehaviors.m; path = "Singletons/Button Behaviors/ButtonBehaviors.m"; sourceTree = "<group>"; };
+		910112711EA144ED003DCCD7 /* MotionEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionEngine.h; path = "Singletons/Motion Engine/MotionEngine.h"; sourceTree = "<group>"; };
+		910112721EA144ED003DCCD7 /* MotionEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MotionEngine.m; path = "Singletons/Motion Engine/MotionEngine.m"; sourceTree = "<group>"; };
+		910112741EA144F9003DCCD7 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = Singletons/Settings/Settings.h; sourceTree = "<group>"; };
+		910112751EA144F9003DCCD7 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Settings.m; path = Singletons/Settings/Settings.m; sourceTree = "<group>"; };
+		910C49781FEA9EEA00D41374 /* Sonicwarper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sonicwarper.xcdatamodel; sourceTree = "<group>"; };
+		91184EE41C1F2C4E00A83A52 /* Sonicwarper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sonicwarper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91184EE81C1F2C4E00A83A52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91184EEA1C1F2C4E00A83A52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91184EEB1C1F2C4E00A83A52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91184EF61C1F2C4E00A83A52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91184EF91C1F2C4E00A83A52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		91184EFB1C1F2C4E00A83A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91184F001C1F2C4E00A83A52 /* SonicwarperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonicwarperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91184F041C1F2C4E00A83A52 /* SonicwarperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonicwarperTests.m; sourceTree = "<group>"; };
+		91184F061C1F2C4E00A83A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91184F0B1C1F2C4E00A83A52 /* SonicwarperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SonicwarperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91184F0F1C1F2C4E00A83A52 /* SonicwarperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonicwarperUITests.m; sourceTree = "<group>"; };
+		91184F111C1F2C4E00A83A52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912FE8DC1EA7AE7400669314 /* BehaviorTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BehaviorTypeViewController.h; path = Controllers/BehaviorTypeViewController.h; sourceTree = "<group>"; };
+		912FE8DD1EA7AE7400669314 /* BehaviorTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BehaviorTypeViewController.m; path = Controllers/BehaviorTypeViewController.m; sourceTree = "<group>"; };
+		912FE8E21EA7B11E00669314 /* MotionTypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionTypeViewController.h; path = Controllers/MotionTypeViewController.h; sourceTree = "<group>"; };
+		912FE8E31EA7B11E00669314 /* MotionTypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MotionTypeViewController.m; path = Controllers/MotionTypeViewController.m; sourceTree = "<group>"; };
+		912FE8E51EA7B16400669314 /* ReverseMappingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReverseMappingViewController.h; path = Controllers/ReverseMappingViewController.h; sourceTree = "<group>"; };
+		912FE8E61EA7B16400669314 /* ReverseMappingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReverseMappingViewController.m; path = Controllers/ReverseMappingViewController.m; sourceTree = "<group>"; };
+		912FE8E81EA7B23A00669314 /* StartingMIDICCValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StartingMIDICCValueViewController.h; path = Controllers/StartingMIDICCValueViewController.h; sourceTree = "<group>"; };
+		912FE8E91EA7B23A00669314 /* StartingMIDICCValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StartingMIDICCValueViewController.m; path = Controllers/StartingMIDICCValueViewController.m; sourceTree = "<group>"; };
+		912FE8EB1EA7B27A00669314 /* MIDIChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIChannelViewController.h; path = Controllers/MIDIChannelViewController.h; sourceTree = "<group>"; };
+		912FE8EC1EA7B27A00669314 /* MIDIChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDIChannelViewController.m; path = Controllers/MIDIChannelViewController.m; sourceTree = "<group>"; };
+		912FE8EE1EA7B2AA00669314 /* MIDICCControllerNoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDICCControllerNoViewController.h; path = Controllers/MIDICCControllerNoViewController.h; sourceTree = "<group>"; };
+		912FE8EF1EA7B2AA00669314 /* MIDICCControllerNoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDICCControllerNoViewController.m; path = Controllers/MIDICCControllerNoViewController.m; sourceTree = "<group>"; };
+		912FE8F11EA7B2D200669314 /* MIDICCValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDICCValueViewController.h; path = Controllers/MIDICCValueViewController.h; sourceTree = "<group>"; };
+		912FE8F21EA7B2D200669314 /* MIDICCValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDICCValueViewController.m; path = Controllers/MIDICCValueViewController.m; sourceTree = "<group>"; };
+		912FE8F71EA7B34E00669314 /* MIDITypeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDITypeViewController.h; path = Controllers/MIDITypeViewController.h; sourceTree = "<group>"; };
+		912FE8F81EA7B34E00669314 /* MIDITypeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDITypeViewController.m; path = Controllers/MIDITypeViewController.m; sourceTree = "<group>"; };
+		912FE8FA1EA7B3AA00669314 /* MIDINoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDINoteViewController.h; path = Controllers/MIDINoteViewController.h; sourceTree = "<group>"; };
+		912FE8FB1EA7B3AA00669314 /* MIDINoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDINoteViewController.m; path = Controllers/MIDINoteViewController.m; sourceTree = "<group>"; };
+		912FE8FD1EA7B3DF00669314 /* MIDIVelocityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIVelocityViewController.h; path = Controllers/MIDIVelocityViewController.h; sourceTree = "<group>"; };
+		912FE8FE1EA7B3DF00669314 /* MIDIVelocityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDIVelocityViewController.m; path = Controllers/MIDIVelocityViewController.m; sourceTree = "<group>"; };
+		914637101EA201A3000DCD84 /* BehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BehaviorViewController.h; path = Controllers/BehaviorViewController.h; sourceTree = "<group>"; };
+		914637111EA201A3000DCD84 /* BehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BehaviorViewController.m; path = Controllers/BehaviorViewController.m; sourceTree = "<group>"; };
+		914637161EA20E5F000DCD84 /* StaticDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StaticDataTableViewController.h; path = Controllers/StaticDataTableViewController.h; sourceTree = "<group>"; };
+		914637171EA20E5F000DCD84 /* StaticDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StaticDataTableViewController.m; path = Controllers/StaticDataTableViewController.m; sourceTree = "<group>"; };
+		917B9CD11FD6CAD700707F99 /* Mappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Mappings.m; path = Mappings/Mappings.m; sourceTree = SOURCE_ROOT; };
+		917B9CD21FD6CAD700707F99 /* Mappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Mappings.h; path = Mappings/Mappings.h; sourceTree = SOURCE_ROOT; };
+		917B9CD41FD7E8B600707F99 /* MIDINoteOnOffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDINoteOnOffViewController.m; path = Controllers/MIDINoteOnOffViewController.m; sourceTree = "<group>"; };
+		917B9CD51FD7E8B600707F99 /* NextMIDINoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextMIDINoteViewController.h; path = Controllers/NextMIDINoteViewController.h; sourceTree = "<group>"; };
+		917B9CD61FD7E8B600707F99 /* MIDINoteOnOffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDINoteOnOffViewController.h; path = Controllers/MIDINoteOnOffViewController.h; sourceTree = "<group>"; };
+		917B9CD71FD7E8B700707F99 /* NextMIDINoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NextMIDINoteViewController.m; path = Controllers/NextMIDINoteViewController.m; sourceTree = "<group>"; };
+		917B9CD81FD7E8B700707F99 /* ContinueFromLastCCValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContinueFromLastCCValueViewController.h; path = Controllers/ContinueFromLastCCValueViewController.h; sourceTree = "<group>"; };
+		917B9CD91FD7E8B700707F99 /* ContinueFromLastCCValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContinueFromLastCCValueViewController.m; path = Controllers/ContinueFromLastCCValueViewController.m; sourceTree = "<group>"; };
+		917B9CE41FDA771000707F99 /* Sample Mapping */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Sample Mapping"; sourceTree = "<group>"; };
+		917F56A61DC4F9C600FE7CE3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		91AD4ECF1EB25F34002812D9 /* ColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorCell.h; path = "Views/Configure Button - Table View Cells/ColorCell.h"; sourceTree = "<group>"; };
+		91AD4ED01EB25F34002812D9 /* ColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorCell.m; path = "Views/Configure Button - Table View Cells/ColorCell.m"; sourceTree = "<group>"; };
+		91AD4ED21EB2625C002812D9 /* TextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextCell.h; path = "Views/Configure Button - Table View Cells/TextCell.h"; sourceTree = "<group>"; };
+		91AD4ED31EB2625C002812D9 /* TextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TextCell.m; path = "Views/Configure Button - Table View Cells/TextCell.m"; sourceTree = "<group>"; };
+		91AD4ED61EB27485002812D9 /* ButtonLooks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonLooks.h; path = "Singletons/Button Looks/ButtonLooks.h"; sourceTree = "<group>"; };
+		91AD4ED71EB27485002812D9 /* ButtonLooks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonLooks.m; path = "Singletons/Button Looks/ButtonLooks.m"; sourceTree = "<group>"; };
+		91AD4ED91EB2F5F9002812D9 /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataController.h; path = "Core Data/DataController.h"; sourceTree = "<group>"; };
+		91AD4EDA1EB2F5F9002812D9 /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataController.m; path = "Core Data/DataController.m"; sourceTree = "<group>"; };
+		91D8E2BE1EB8D6B400AD048B /* MIDIEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDIEngine.h; path = "Singletons/MIDI Engine/MIDIEngine.h"; sourceTree = "<group>"; };
+		91D8E2BF1EB8D6B400AD048B /* MIDIEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MIDIEngine.m; path = "Singletons/MIDI Engine/MIDIEngine.m"; sourceTree = "<group>"; };
+		91F1562D1EA141C800C9DC88 /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ColorViewController.h; path = Controllers/ColorViewController.h; sourceTree = "<group>"; };
+		91F1562E1EA141C800C9DC88 /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ColorViewController.m; path = Controllers/ColorViewController.m; sourceTree = "<group>"; };
+		91F1562F1EA141C800C9DC88 /* ConfigureButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigureButtonViewController.h; path = Controllers/ConfigureButtonViewController.h; sourceTree = "<group>"; };
+		91F156301EA141C800C9DC88 /* ConfigureButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigureButtonViewController.m; path = Controllers/ConfigureButtonViewController.m; sourceTree = "<group>"; };
+		91F156371EA141C800C9DC88 /* MainLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainLabelViewController.h; path = Controllers/MainLabelViewController.h; sourceTree = "<group>"; };
+		91F156381EA141C800C9DC88 /* MainLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainLabelViewController.m; path = Controllers/MainLabelViewController.m; sourceTree = "<group>"; };
+		91F156391EA141C800C9DC88 /* NewConditionalBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewConditionalBehaviorViewController.h; path = Controllers/NewConditionalBehaviorViewController.h; sourceTree = "<group>"; };
+		91F1563A1EA141C800C9DC88 /* NewConditionalBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewConditionalBehaviorViewController.m; path = Controllers/NewConditionalBehaviorViewController.m; sourceTree = "<group>"; };
+		91F1563B1EA141C800C9DC88 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SettingsViewController.h; path = Controllers/SettingsViewController.h; sourceTree = "<group>"; };
+		91F1563C1EA141C800C9DC88 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SettingsViewController.m; path = Controllers/SettingsViewController.m; sourceTree = "<group>"; };
+		91F1563D1EA141C800C9DC88 /* SmallLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmallLabelViewController.h; path = Controllers/SmallLabelViewController.h; sourceTree = "<group>"; };
+		91F1563E1EA141C800C9DC88 /* SmallLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SmallLabelViewController.m; path = Controllers/SmallLabelViewController.m; sourceTree = "<group>"; };
+		91F1563F1EA141C800C9DC88 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = Controllers/ViewController.h; sourceTree = "<group>"; };
+		91F156401EA141C800C9DC88 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = Controllers/ViewController.m; sourceTree = "<group>"; };
+		91F1564B1EA141DE00C9DC88 /* Fonts+Sonicwarper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Fonts+Sonicwarper.h"; path = "Extensions/Fonts+Sonicwarper.h"; sourceTree = "<group>"; };
+		91F1564C1EA141DE00C9DC88 /* Fonts+Sonicwarper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Fonts+Sonicwarper.m"; path = "Extensions/Fonts+Sonicwarper.m"; sourceTree = "<group>"; };
+		91F1564D1EA141DE00C9DC88 /* NSString+Sonicwarper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Sonicwarper.h"; path = "Extensions/NSString+Sonicwarper.h"; sourceTree = "<group>"; };
+		91F1564E1EA141DE00C9DC88 /* NSString+Sonicwarper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Sonicwarper.m"; path = "Extensions/NSString+Sonicwarper.m"; sourceTree = "<group>"; };
+		91F1564F1EA141DE00C9DC88 /* UIColor+Sonicwarper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIColor+Sonicwarper.h"; path = "Extensions/UIColor+Sonicwarper.h"; sourceTree = "<group>"; };
+		91F156501EA141DE00C9DC88 /* UIColor+Sonicwarper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Sonicwarper.m"; path = "Extensions/UIColor+Sonicwarper.m"; sourceTree = "<group>"; };
+		91F156511EA141DE00C9DC88 /* UIImage+Sonicwarper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Sonicwarper.h"; path = "Extensions/UIImage+Sonicwarper.h"; sourceTree = "<group>"; };
+		91F156521EA141DE00C9DC88 /* UIImage+Sonicwarper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Sonicwarper.m"; path = "Extensions/UIImage+Sonicwarper.m"; sourceTree = "<group>"; };
+		91F156531EA141DE00C9DC88 /* UIView+Sonicwarper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Sonicwarper.h"; path = "Extensions/UIView+Sonicwarper.h"; sourceTree = "<group>"; };
+		91F156541EA141DE00C9DC88 /* UIView+Sonicwarper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Sonicwarper.m"; path = "Extensions/UIView+Sonicwarper.m"; sourceTree = "<group>"; };
+		91F1565A1EA141F300C9DC88 /* ButtonLook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonLook.h; path = "Models/Button Look/ButtonLook.h"; sourceTree = "<group>"; };
+		91F1565B1EA141F300C9DC88 /* ButtonLook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonLook.m; path = "Models/Button Look/ButtonLook.m"; sourceTree = "<group>"; };
+		91F1565D1EA1420300C9DC88 /* ButtonBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ButtonBehavior.h; path = "Models/Button Behavior/ButtonBehavior.h"; sourceTree = "<group>"; };
+		91F1565E1EA1420300C9DC88 /* ButtonBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ButtonBehavior.m; path = "Models/Button Behavior/ButtonBehavior.m"; sourceTree = "<group>"; };
+		91F156601EA1421200C9DC88 /* MotionMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MotionMapping.h; path = "Models/Motion Mapping/MotionMapping.h"; sourceTree = "<group>"; };
+		91F156611EA1421200C9DC88 /* MotionMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MotionMapping.m; path = "Models/Motion Mapping/MotionMapping.m"; sourceTree = "<group>"; };
+		91F3B12F1FC9DEE70086E9AA /* NextMotionMappingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NextMotionMappingViewController.h; path = Controllers/NextMotionMappingViewController.h; sourceTree = "<group>"; };
+		91F3B1301FC9DEE70086E9AA /* NextMotionMappingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = NextMotionMappingViewController.m; path = Controllers/NextMotionMappingViewController.m; sourceTree = "<group>"; };
+		980EE604F1D88D5B5102ADBA /* libPods-Sonicwarper.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Sonicwarper.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9743DF76B25992D8FEA93F9 /* Pods-SonicwarperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicwarperUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SonicwarperUITests/Pods-SonicwarperUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CF35884A0E923AA123E23F62 /* Pods-SonicwarperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicwarperTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SonicwarperTests/Pods-SonicwarperTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC99CA29EEB57595C4203027 /* Pods-Sonicwarper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sonicwarper.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sonicwarper/Pods-Sonicwarper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91184EE11C1F2C4D00A83A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E21FBA5366B33B5A6A39416E /* libPods-Sonicwarper.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184EFD1C1F2C4E00A83A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38F64769F556AEFE554A2A14 /* libPods-SonicwarperTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184F081C1F2C4E00A83A52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E15BB3A964E8697BED7B4145 /* libPods-SonicwarperUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91146E211E76C4C200FBC374 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				912FE8DC1EA7AE7400669314 /* BehaviorTypeViewController.h */,
+				912FE8DD1EA7AE7400669314 /* BehaviorTypeViewController.m */,
+				914637101EA201A3000DCD84 /* BehaviorViewController.h */,
+				914637111EA201A3000DCD84 /* BehaviorViewController.m */,
+				91F1562D1EA141C800C9DC88 /* ColorViewController.h */,
+				91F1562E1EA141C800C9DC88 /* ColorViewController.m */,
+				91F1562F1EA141C800C9DC88 /* ConfigureButtonViewController.h */,
+				91F156301EA141C800C9DC88 /* ConfigureButtonViewController.m */,
+				917B9CD81FD7E8B700707F99 /* ContinueFromLastCCValueViewController.h */,
+				917B9CD91FD7E8B700707F99 /* ContinueFromLastCCValueViewController.m */,
+				91F156371EA141C800C9DC88 /* MainLabelViewController.h */,
+				91F156381EA141C800C9DC88 /* MainLabelViewController.m */,
+				912FE8EE1EA7B2AA00669314 /* MIDICCControllerNoViewController.h */,
+				912FE8EF1EA7B2AA00669314 /* MIDICCControllerNoViewController.m */,
+				912FE8F11EA7B2D200669314 /* MIDICCValueViewController.h */,
+				912FE8F21EA7B2D200669314 /* MIDICCValueViewController.m */,
+				912FE8EB1EA7B27A00669314 /* MIDIChannelViewController.h */,
+				912FE8EC1EA7B27A00669314 /* MIDIChannelViewController.m */,
+				917B9CD61FD7E8B600707F99 /* MIDINoteOnOffViewController.h */,
+				917B9CD41FD7E8B600707F99 /* MIDINoteOnOffViewController.m */,
+				912FE8FA1EA7B3AA00669314 /* MIDINoteViewController.h */,
+				912FE8FB1EA7B3AA00669314 /* MIDINoteViewController.m */,
+				912FE8F71EA7B34E00669314 /* MIDITypeViewController.h */,
+				912FE8F81EA7B34E00669314 /* MIDITypeViewController.m */,
+				912FE8FD1EA7B3DF00669314 /* MIDIVelocityViewController.h */,
+				912FE8FE1EA7B3DF00669314 /* MIDIVelocityViewController.m */,
+				912FE8E21EA7B11E00669314 /* MotionTypeViewController.h */,
+				912FE8E31EA7B11E00669314 /* MotionTypeViewController.m */,
+				91F156391EA141C800C9DC88 /* NewConditionalBehaviorViewController.h */,
+				91F1563A1EA141C800C9DC88 /* NewConditionalBehaviorViewController.m */,
+				917B9CD51FD7E8B600707F99 /* NextMIDINoteViewController.h */,
+				917B9CD71FD7E8B700707F99 /* NextMIDINoteViewController.m */,
+				91F3B12F1FC9DEE70086E9AA /* NextMotionMappingViewController.h */,
+				91F3B1301FC9DEE70086E9AA /* NextMotionMappingViewController.m */,
+				912FE8E51EA7B16400669314 /* ReverseMappingViewController.h */,
+				912FE8E61EA7B16400669314 /* ReverseMappingViewController.m */,
+				91F1563B1EA141C800C9DC88 /* SettingsViewController.h */,
+				91F1563C1EA141C800C9DC88 /* SettingsViewController.m */,
+				91F1563D1EA141C800C9DC88 /* SmallLabelViewController.h */,
+				91F1563E1EA141C800C9DC88 /* SmallLabelViewController.m */,
+				912FE8E81EA7B23A00669314 /* StartingMIDICCValueViewController.h */,
+				912FE8E91EA7B23A00669314 /* StartingMIDICCValueViewController.m */,
+				914637161EA20E5F000DCD84 /* StaticDataTableViewController.h */,
+				914637171EA20E5F000DCD84 /* StaticDataTableViewController.m */,
+				91F1563F1EA141C800C9DC88 /* ViewController.h */,
+				91F156401EA141C800C9DC88 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		91146E221E76C4CB00FBC374 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				91F1564B1EA141DE00C9DC88 /* Fonts+Sonicwarper.h */,
+				91F1564C1EA141DE00C9DC88 /* Fonts+Sonicwarper.m */,
+				91F1564D1EA141DE00C9DC88 /* NSString+Sonicwarper.h */,
+				91F1564E1EA141DE00C9DC88 /* NSString+Sonicwarper.m */,
+				91F1564F1EA141DE00C9DC88 /* UIColor+Sonicwarper.h */,
+				91F156501EA141DE00C9DC88 /* UIColor+Sonicwarper.m */,
+				91F156511EA141DE00C9DC88 /* UIImage+Sonicwarper.h */,
+				91F156521EA141DE00C9DC88 /* UIImage+Sonicwarper.m */,
+				91F156531EA141DE00C9DC88 /* UIView+Sonicwarper.h */,
+				91F156541EA141DE00C9DC88 /* UIView+Sonicwarper.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		91146E231E76C4D800FBC374 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91F156071EA12E7100C9DC88 /* Button Look */,
+				91F156041EA0FEEB00C9DC88 /* Button Behavior */,
+				91F156051EA0FEF900C9DC88 /* Motion Mapping */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		91146E241E76C4E100FBC374 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				91DFDACD1C721FAA00791DF3 /* Fonts */,
+				91F156031E9F5A2B00C9DC88 /* Traktor MIDI Dictionary */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		91146E251E76C4EC00FBC374 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		91146E261E76C4F700FBC374 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				91AD4ECE1EB25CCE002812D9 /* Configure Button - Table View Cells */,
+				9183DB761CB682DC00FA10FD /* Full Components */,
+				9183DB771CB682E500FA10FD /* Individual Components */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		91184EDB1C1F2C4D00A83A52 = {
+			isa = PBXGroup;
+			children = (
+				91184EE61C1F2C4E00A83A52 /* Sonicwarper */,
+				91184F031C1F2C4E00A83A52 /* SonicwarperTests */,
+				91184F0E1C1F2C4E00A83A52 /* SonicwarperUITests */,
+				91184EE51C1F2C4E00A83A52 /* Products */,
+				A6C1B3FB95FC1802F8D95BB2 /* Pods */,
+				A75FDF746BBC40EDEF0B3FD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		91184EE51C1F2C4E00A83A52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91184EE41C1F2C4E00A83A52 /* Sonicwarper.app */,
+				91184F001C1F2C4E00A83A52 /* SonicwarperTests.xctest */,
+				91184F0B1C1F2C4E00A83A52 /* SonicwarperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91184EE61C1F2C4E00A83A52 /* Sonicwarper */ = {
+			isa = PBXGroup;
+			children = (
+				91184EEA1C1F2C4E00A83A52 /* AppDelegate.h */,
+				91184EEB1C1F2C4E00A83A52 /* AppDelegate.m */,
+				91184EF61C1F2C4E00A83A52 /* Assets.xcassets */,
+				917B9CE41FDA771000707F99 /* Sample Mapping */,
+				91146E211E76C4C200FBC374 /* Controllers */,
+				915736481EA1459F0021A315 /* Core Data */,
+				91146E221E76C4CB00FBC374 /* Extensions */,
+				91184EFB1C1F2C4E00A83A52 /* Info.plist */,
+				91184EF81C1F2C4E00A83A52 /* LaunchScreen.storyboard */,
+				917F56A61DC4F9C600FE7CE3 /* Main.storyboard */,
+				91146E231E76C4D800FBC374 /* Models */,
+				91146E241E76C4E100FBC374 /* Resources */,
+				91146E251E76C4EC00FBC374 /* Services */,
+				919CA6671DC03F9300B413B2 /* Singletons */,
+				91184EE71C1F2C4E00A83A52 /* Supporting Files */,
+				9183DB691CB67A6600FA10FD /* Utilities */,
+				91146E261E76C4F700FBC374 /* Views */,
+			);
+			path = Sonicwarper;
+			sourceTree = "<group>";
+		};
+		91184EE71C1F2C4E00A83A52 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91184EE81C1F2C4E00A83A52 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91184F031C1F2C4E00A83A52 /* SonicwarperTests */ = {
+			isa = PBXGroup;
+			children = (
+				91184F041C1F2C4E00A83A52 /* SonicwarperTests.m */,
+				91184F061C1F2C4E00A83A52 /* Info.plist */,
+			);
+			path = SonicwarperTests;
+			sourceTree = "<group>";
+		};
+		91184F0E1C1F2C4E00A83A52 /* SonicwarperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91184F0F1C1F2C4E00A83A52 /* SonicwarperUITests.m */,
+				91184F111C1F2C4E00A83A52 /* Info.plist */,
+			);
+			path = SonicwarperUITests;
+			sourceTree = "<group>";
+		};
+		915736481EA1459F0021A315 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				910C49771FEA9EEA00D41374 /* Sonicwarper.xcdatamodeld */,
+				91AD4ED91EB2F5F9002812D9 /* DataController.h */,
+				91AD4EDA1EB2F5F9002812D9 /* DataController.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		916DA9191EB8A7E200A285D9 /* MIDI Engine */ = {
+			isa = PBXGroup;
+			children = (
+				91D8E2BE1EB8D6B400AD048B /* MIDIEngine.h */,
+				91D8E2BF1EB8D6B400AD048B /* MIDIEngine.m */,
+			);
+			name = "MIDI Engine";
+			sourceTree = "<group>";
+		};
+		917B9CD01FD6CAC700707F99 /* Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				917B9CD21FD6CAD700707F99 /* Mappings.h */,
+				917B9CD11FD6CAD700707F99 /* Mappings.m */,
+			);
+			name = Mappings;
+			sourceTree = "<group>";
+		};
+		9183DB5E1CB6758B00FA10FD /* Motion Engine */ = {
+			isa = PBXGroup;
+			children = (
+				910112711EA144ED003DCCD7 /* MotionEngine.h */,
+				910112721EA144ED003DCCD7 /* MotionEngine.m */,
+			);
+			name = "Motion Engine";
+			sourceTree = "<group>";
+		};
+		9183DB691CB67A6600FA10FD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9183DB6A1CB67B6D00FA10FD /* Bowswitch */ = {
+			isa = PBXGroup;
+			children = (
+				910112531EA1431A003DCCD7 /* BowswitchView.h */,
+				910112541EA1431A003DCCD7 /* BowswitchView.m */,
+			);
+			name = Bowswitch;
+			sourceTree = "<group>";
+		};
+		9183DB6B1CB67E0600FA10FD /* Level */ = {
+			isa = PBXGroup;
+			children = (
+				9101125C1EA1435F003DCCD7 /* LevelView.h */,
+				9101125D1EA1435F003DCCD7 /* LevelView.m */,
+			);
+			name = Level;
+			sourceTree = "<group>";
+		};
+		9183DB6C1CB67E0F00FA10FD /* On / Off */ = {
+			isa = PBXGroup;
+			children = (
+				9101125F1EA14374003DCCD7 /* OnOffView.h */,
+				910112601EA14374003DCCD7 /* OnOffView.m */,
+			);
+			name = "On / Off";
+			sourceTree = "<group>";
+		};
+		9183DB6D1CB6802A00FA10FD /* Percentage */ = {
+			isa = PBXGroup;
+			children = (
+				910112621EA14384003DCCD7 /* PercentageView.h */,
+				910112631EA14384003DCCD7 /* PercentageView.m */,
+			);
+			name = Percentage;
+			sourceTree = "<group>";
+		};
+		9183DB6E1CB680E200FA10FD /* Edit Mode */ = {
+			isa = PBXGroup;
+			children = (
+				910112561EA14328003DCCD7 /* EditModeView.h */,
+				910112571EA14328003DCCD7 /* EditModeView.m */,
+			);
+			name = "Edit Mode";
+			sourceTree = "<group>";
+		};
+		9183DB6F1CB680FD00FA10FD /* Tempo */ = {
+			isa = PBXGroup;
+			children = (
+				910112651EA14395003DCCD7 /* TempoView.h */,
+				910112661EA14395003DCCD7 /* TempoView.m */,
+			);
+			name = Tempo;
+			sourceTree = "<group>";
+		};
+		9183DB711CB681B100FA10FD /* Horizontal Motion */ = {
+			isa = PBXGroup;
+			children = (
+				910112591EA14350003DCCD7 /* HorizontalMotionView.h */,
+				9101125A1EA14350003DCCD7 /* HorizontalMotionView.m */,
+			);
+			name = "Horizontal Motion";
+			sourceTree = "<group>";
+		};
+		9183DB721CB6826F00FA10FD /* Full Tempo Clock */ = {
+			isa = PBXGroup;
+			children = (
+				910112501EA14300003DCCD7 /* FullTempoClockView.h */,
+				910112511EA14300003DCCD7 /* FullTempoClockView.m */,
+			);
+			name = "Full Tempo Clock";
+			sourceTree = "<group>";
+		};
+		9183DB731CB6827F00FA10FD /* Full Motion Levels */ = {
+			isa = PBXGroup;
+			children = (
+				9101124D1EA142F2003DCCD7 /* FullMotionLevelsView.h */,
+				9101124E1EA142F2003DCCD7 /* FullMotionLevelsView.m */,
+			);
+			name = "Full Motion Levels";
+			sourceTree = "<group>";
+		};
+		9183DB741CB682C700FA10FD /* Full Master Levels */ = {
+			isa = PBXGroup;
+			children = (
+				9101124A1EA142E4003DCCD7 /* FullMasterLevelsView.h */,
+				9101124B1EA142E4003DCCD7 /* FullMasterLevelsView.m */,
+			);
+			name = "Full Master Levels";
+			sourceTree = "<group>";
+		};
+		9183DB751CB682D300FA10FD /* Full Deck View */ = {
+			isa = PBXGroup;
+			children = (
+				910112471EA142D5003DCCD7 /* FullDeckView.h */,
+				910112481EA142D5003DCCD7 /* FullDeckView.m */,
+			);
+			name = "Full Deck View";
+			sourceTree = "<group>";
+		};
+		9183DB761CB682DC00FA10FD /* Full Components */ = {
+			isa = PBXGroup;
+			children = (
+				9183DB751CB682D300FA10FD /* Full Deck View */,
+				9183DB741CB682C700FA10FD /* Full Master Levels */,
+				9183DB731CB6827F00FA10FD /* Full Motion Levels */,
+				9183DB721CB6826F00FA10FD /* Full Tempo Clock */,
+			);
+			name = "Full Components";
+			sourceTree = "<group>";
+		};
+		9183DB771CB682E500FA10FD /* Individual Components */ = {
+			isa = PBXGroup;
+			children = (
+				9183DB6A1CB67B6D00FA10FD /* Bowswitch */,
+				9183DB6E1CB680E200FA10FD /* Edit Mode */,
+				9183DB711CB681B100FA10FD /* Horizontal Motion */,
+				9183DB6B1CB67E0600FA10FD /* Level */,
+				9183DB6C1CB67E0F00FA10FD /* On / Off */,
+				9183DB6D1CB6802A00FA10FD /* Percentage */,
+				9183DB6F1CB680FD00FA10FD /* Tempo */,
+				9183DB781CB6833A00FA10FD /* Track */,
+				9183DB791CB683E700FA10FD /* Vertical Motion */,
+			);
+			name = "Individual Components";
+			sourceTree = "<group>";
+		};
+		9183DB781CB6833A00FA10FD /* Track */ = {
+			isa = PBXGroup;
+			children = (
+				910112681EA143A6003DCCD7 /* TrackView.h */,
+				910112691EA143A6003DCCD7 /* TrackView.m */,
+			);
+			name = Track;
+			sourceTree = "<group>";
+		};
+		9183DB791CB683E700FA10FD /* Vertical Motion */ = {
+			isa = PBXGroup;
+			children = (
+				9101126B1EA143BA003DCCD7 /* VerticalMotionView.h */,
+				9101126C1EA143BA003DCCD7 /* VerticalMotionView.m */,
+			);
+			name = "Vertical Motion";
+			sourceTree = "<group>";
+		};
+		919CA6671DC03F9300B413B2 /* Singletons */ = {
+			isa = PBXGroup;
+			children = (
+				917B9CD01FD6CAC700707F99 /* Mappings */,
+				91F829A61E950F0F00101108 /* Button Behaviors */,
+				91AD4ED51EB27464002812D9 /* Button Looks */,
+				916DA9191EB8A7E200A285D9 /* MIDI Engine */,
+				9183DB5E1CB6758B00FA10FD /* Motion Engine */,
+				91ADA6011DC5B25900DB0F3F /* Settings */,
+			);
+			name = Singletons;
+			sourceTree = "<group>";
+		};
+		91AD4ECE1EB25CCE002812D9 /* Configure Button - Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				91AD4ECF1EB25F34002812D9 /* ColorCell.h */,
+				91AD4ED01EB25F34002812D9 /* ColorCell.m */,
+				91AD4ED21EB2625C002812D9 /* TextCell.h */,
+				91AD4ED31EB2625C002812D9 /* TextCell.m */,
+			);
+			name = "Configure Button - Table View Cells";
+			sourceTree = "<group>";
+		};
+		91AD4ED51EB27464002812D9 /* Button Looks */ = {
+			isa = PBXGroup;
+			children = (
+				91AD4ED61EB27485002812D9 /* ButtonLooks.h */,
+				91AD4ED71EB27485002812D9 /* ButtonLooks.m */,
+			);
+			name = "Button Looks";
+			sourceTree = "<group>";
+		};
+		91ADA6011DC5B25900DB0F3F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				910112741EA144F9003DCCD7 /* Settings.h */,
+				910112751EA144F9003DCCD7 /* Settings.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		91DFDACD1C721FAA00791DF3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9101123F1EA1429B003DCCD7 /* Montserrat-Bold.ttf */,
+				910112401EA1429B003DCCD7 /* Montserrat-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		91F156031E9F5A2B00C9DC88 /* Traktor MIDI Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				910112431EA142B0003DCCD7 /* TraktorProMIDIDictionary.h */,
+				910112441EA142B0003DCCD7 /* TraktorProMIDIDictionary.m */,
+				910112451EA142B0003DCCD7 /* TraktorProMIDIMessageConstants.h */,
+			);
+			name = "Traktor MIDI Dictionary";
+			sourceTree = "<group>";
+		};
+		91F156041EA0FEEB00C9DC88 /* Button Behavior */ = {
+			isa = PBXGroup;
+			children = (
+				91F1565D1EA1420300C9DC88 /* ButtonBehavior.h */,
+				91F1565E1EA1420300C9DC88 /* ButtonBehavior.m */,
+			);
+			name = "Button Behavior";
+			sourceTree = "<group>";
+		};
+		91F156051EA0FEF900C9DC88 /* Motion Mapping */ = {
+			isa = PBXGroup;
+			children = (
+				91F156601EA1421200C9DC88 /* MotionMapping.h */,
+				91F156611EA1421200C9DC88 /* MotionMapping.m */,
+			);
+			name = "Motion Mapping";
+			sourceTree = "<group>";
+		};
+		91F156071EA12E7100C9DC88 /* Button Look */ = {
+			isa = PBXGroup;
+			children = (
+				91F1565A1EA141F300C9DC88 /* ButtonLook.h */,
+				91F1565B1EA141F300C9DC88 /* ButtonLook.m */,
+			);
+			name = "Button Look";
+			sourceTree = "<group>";
+		};
+		91F829A61E950F0F00101108 /* Button Behaviors */ = {
+			isa = PBXGroup;
+			children = (
+				9101126E1EA144E0003DCCD7 /* ButtonBehaviors.h */,
+				9101126F1EA144E0003DCCD7 /* ButtonBehaviors.m */,
+			);
+			name = "Button Behaviors";
+			sourceTree = "<group>";
+		};
+		A6C1B3FB95FC1802F8D95BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39DCBF2E842826EA42F33BEE /* Pods-Sonicwarper.debug.xcconfig */,
+				FC99CA29EEB57595C4203027 /* Pods-Sonicwarper.release.xcconfig */,
+				CF35884A0E923AA123E23F62 /* Pods-SonicwarperTests.debug.xcconfig */,
+				536E161B26D2BCC8468F8CE2 /* Pods-SonicwarperTests.release.xcconfig */,
+				7C672293AAD9F2C177AF17AC /* Pods-SonicwarperUITests.debug.xcconfig */,
+				C9743DF76B25992D8FEA93F9 /* Pods-SonicwarperUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A75FDF746BBC40EDEF0B3FD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				980EE604F1D88D5B5102ADBA /* libPods-Sonicwarper.a */,
+				1A706C6FC70F0A0DD00B643A /* libPods-SonicwarperTests.a */,
+				27DAA009A6C7835B24544A6C /* libPods-SonicwarperUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91184EE31C1F2C4D00A83A52 /* Sonicwarper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91184F141C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "Sonicwarper" */;
+			buildPhases = (
+				EF5239F5DB6DADC27EE125E5 /* [CP] Check Pods Manifest.lock */,
+				91184EE01C1F2C4D00A83A52 /* Sources */,
+				91184EE11C1F2C4D00A83A52 /* Frameworks */,
+				91184EE21C1F2C4D00A83A52 /* Resources */,
+				DC99A1E9519AAB2738C1BEF4 /* [CP] Embed Pods Frameworks */,
+				F7F8528EA0586BA524DCFAC6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sonicwarper;
+			productName = Sonicwarper;
+			productReference = 91184EE41C1F2C4E00A83A52 /* Sonicwarper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91184EFF1C1F2C4E00A83A52 /* SonicwarperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91184F171C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "SonicwarperTests" */;
+			buildPhases = (
+				261B07FE5700393758043216 /* [CP] Check Pods Manifest.lock */,
+				91184EFC1C1F2C4E00A83A52 /* Sources */,
+				91184EFD1C1F2C4E00A83A52 /* Frameworks */,
+				91184EFE1C1F2C4E00A83A52 /* Resources */,
+				1C99315958826F39852E2841 /* [CP] Embed Pods Frameworks */,
+				D455D6A2619E196BD4E9639A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91184F021C1F2C4E00A83A52 /* PBXTargetDependency */,
+			);
+			name = SonicwarperTests;
+			productName = SonicwarperTests;
+			productReference = 91184F001C1F2C4E00A83A52 /* SonicwarperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91184F0A1C1F2C4E00A83A52 /* SonicwarperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91184F1A1C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "SonicwarperUITests" */;
+			buildPhases = (
+				9F09CBB38EEBA2A8F39274AF /* [CP] Check Pods Manifest.lock */,
+				91184F071C1F2C4E00A83A52 /* Sources */,
+				91184F081C1F2C4E00A83A52 /* Frameworks */,
+				91184F091C1F2C4E00A83A52 /* Resources */,
+				7C81EC0BEC57D9C14AE42363 /* [CP] Copy Pods Resources */,
+				D35A7F03192E2A1D4777DB2D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91184F0D1C1F2C4E00A83A52 /* PBXTargetDependency */,
+			);
+			name = SonicwarperUITests;
+			productName = SonicwarperUITests;
+			productReference = 91184F0B1C1F2C4E00A83A52 /* SonicwarperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91184EDC1C1F2C4D00A83A52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Sonicwarper;
+				TargetAttributes = {
+					91184EE31C1F2C4D00A83A52 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 3ZMMD22KG2;
+					};
+					91184EFF1C1F2C4E00A83A52 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 91184EE31C1F2C4D00A83A52;
+					};
+					91184F0A1C1F2C4E00A83A52 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 91184EE31C1F2C4D00A83A52;
+					};
+				};
+			};
+			buildConfigurationList = 91184EDF1C1F2C4D00A83A52 /* Build configuration list for PBXProject "Sonicwarper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91184EDB1C1F2C4D00A83A52;
+			productRefGroup = 91184EE51C1F2C4E00A83A52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91184EE31C1F2C4D00A83A52 /* Sonicwarper */,
+				91184EFF1C1F2C4E00A83A52 /* SonicwarperTests */,
+				91184F0A1C1F2C4E00A83A52 /* SonicwarperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91184EE21C1F2C4D00A83A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910112411EA1429B003DCCD7 /* Montserrat-Bold.ttf in Resources */,
+				91184EFA1C1F2C4E00A83A52 /* LaunchScreen.storyboard in Resources */,
+				917B9CE51FDA771000707F99 /* Sample Mapping in Resources */,
+				91184EF71C1F2C4E00A83A52 /* Assets.xcassets in Resources */,
+				910112421EA1429B003DCCD7 /* Montserrat-Regular.ttf in Resources */,
+				917F56A71DC4F9C600FE7CE3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184EFE1C1F2C4E00A83A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184F091C1F2C4E00A83A52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C99315958826F39852E2841 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonicwarperTests/Pods-SonicwarperTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		261B07FE5700393758043216 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7C81EC0BEC57D9C14AE42363 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonicwarperUITests/Pods-SonicwarperUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F09CBB38EEBA2A8F39274AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D35A7F03192E2A1D4777DB2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonicwarperUITests/Pods-SonicwarperUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D455D6A2619E196BD4E9639A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SonicwarperTests/Pods-SonicwarperTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC99A1E9519AAB2738C1BEF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sonicwarper/Pods-Sonicwarper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF5239F5DB6DADC27EE125E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F8528EA0586BA524DCFAC6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Sonicwarper/Pods-Sonicwarper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91184EE01C1F2C4D00A83A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				914637181EA20E5F000DCD84 /* StaticDataTableViewController.m in Sources */,
+				912FE8DE1EA7AE7400669314 /* BehaviorTypeViewController.m in Sources */,
+				91F156591EA141DE00C9DC88 /* UIView+Sonicwarper.m in Sources */,
+				91F156481EA141C800C9DC88 /* SettingsViewController.m in Sources */,
+				91F1565C1EA141F300C9DC88 /* ButtonLook.m in Sources */,
+				910112491EA142D5003DCCD7 /* FullDeckView.m in Sources */,
+				910112671EA14395003DCCD7 /* TempoView.m in Sources */,
+				910112461EA142B0003DCCD7 /* TraktorProMIDIDictionary.m in Sources */,
+				910112581EA14328003DCCD7 /* EditModeView.m in Sources */,
+				912FE8E71EA7B16400669314 /* ReverseMappingViewController.m in Sources */,
+				912FE8ED1EA7B27A00669314 /* MIDIChannelViewController.m in Sources */,
+				917B9CDA1FD7E8B700707F99 /* MIDINoteOnOffViewController.m in Sources */,
+				91F156551EA141DE00C9DC88 /* Fonts+Sonicwarper.m in Sources */,
+				912FE8F01EA7B2AA00669314 /* MIDICCControllerNoViewController.m in Sources */,
+				912FE8F31EA7B2D200669314 /* MIDICCValueViewController.m in Sources */,
+				91F156421EA141C800C9DC88 /* ConfigureButtonViewController.m in Sources */,
+				91F156581EA141DE00C9DC88 /* UIImage+Sonicwarper.m in Sources */,
+				91F1564A1EA141C800C9DC88 /* ViewController.m in Sources */,
+				91184EEC1C1F2C4E00A83A52 /* AppDelegate.m in Sources */,
+				91F156561EA141DE00C9DC88 /* NSString+Sonicwarper.m in Sources */,
+				9101124F1EA142F2003DCCD7 /* FullMotionLevelsView.m in Sources */,
+				9101126D1EA143BA003DCCD7 /* VerticalMotionView.m in Sources */,
+				912FE8FF1EA7B3DF00669314 /* MIDIVelocityViewController.m in Sources */,
+				917B9CDB1FD7E8B700707F99 /* NextMIDINoteViewController.m in Sources */,
+				91AD4EDB1EB2F5F9002812D9 /* DataController.m in Sources */,
+				91F156571EA141DE00C9DC88 /* UIColor+Sonicwarper.m in Sources */,
+				9101125B1EA14350003DCCD7 /* HorizontalMotionView.m in Sources */,
+				91AD4ED11EB25F34002812D9 /* ColorCell.m in Sources */,
+				917B9CD31FD6CAD700707F99 /* Mappings.m in Sources */,
+				910112731EA144ED003DCCD7 /* MotionEngine.m in Sources */,
+				910112761EA144F9003DCCD7 /* Settings.m in Sources */,
+				91AD4ED41EB2625C002812D9 /* TextCell.m in Sources */,
+				910112641EA14384003DCCD7 /* PercentageView.m in Sources */,
+				910112521EA14300003DCCD7 /* FullTempoClockView.m in Sources */,
+				912FE8EA1EA7B23A00669314 /* StartingMIDICCValueViewController.m in Sources */,
+				91F156491EA141C800C9DC88 /* SmallLabelViewController.m in Sources */,
+				914637121EA201A3000DCD84 /* BehaviorViewController.m in Sources */,
+				912FE8F91EA7B34E00669314 /* MIDITypeViewController.m in Sources */,
+				917B9CDC1FD7E8B700707F99 /* ContinueFromLastCCValueViewController.m in Sources */,
+				910C49791FEA9EEA00D41374 /* Sonicwarper.xcdatamodeld in Sources */,
+				91184EE91C1F2C4E00A83A52 /* main.m in Sources */,
+				910112611EA14374003DCCD7 /* OnOffView.m in Sources */,
+				910112701EA144E0003DCCD7 /* ButtonBehaviors.m in Sources */,
+				91D8E2C01EB8D6B400AD048B /* MIDIEngine.m in Sources */,
+				9101125E1EA1435F003DCCD7 /* LevelView.m in Sources */,
+				91F156471EA141C800C9DC88 /* NewConditionalBehaviorViewController.m in Sources */,
+				910112551EA1431A003DCCD7 /* BowswitchView.m in Sources */,
+				91F156461EA141C800C9DC88 /* MainLabelViewController.m in Sources */,
+				91F156621EA1421200C9DC88 /* MotionMapping.m in Sources */,
+				91F156411EA141C800C9DC88 /* ColorViewController.m in Sources */,
+				912FE8FC1EA7B3AA00669314 /* MIDINoteViewController.m in Sources */,
+				912FE8E41EA7B11E00669314 /* MotionTypeViewController.m in Sources */,
+				91F1565F1EA1420300C9DC88 /* ButtonBehavior.m in Sources */,
+				91F3B1311FC9DEE70086E9AA /* NextMotionMappingViewController.m in Sources */,
+				9101124C1EA142E4003DCCD7 /* FullMasterLevelsView.m in Sources */,
+				91AD4ED81EB27485002812D9 /* ButtonLooks.m in Sources */,
+				9101126A1EA143A6003DCCD7 /* TrackView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184EFC1C1F2C4E00A83A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91184F051C1F2C4E00A83A52 /* SonicwarperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91184F071C1F2C4E00A83A52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91184F101C1F2C4E00A83A52 /* SonicwarperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91184F021C1F2C4E00A83A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91184EE31C1F2C4D00A83A52 /* Sonicwarper */;
+			targetProxy = 91184F011C1F2C4E00A83A52 /* PBXContainerItemProxy */;
+		};
+		91184F0D1C1F2C4E00A83A52 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91184EE31C1F2C4D00A83A52 /* Sonicwarper */;
+			targetProxy = 91184F0C1C1F2C4E00A83A52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91184EF81C1F2C4E00A83A52 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91184EF91C1F2C4E00A83A52 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91184F121C1F2C4E00A83A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+			};
+			name = Debug;
+		};
+		91184F131C1F2C4E00A83A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				"USER_HEADER_SEARCH_PATHS[arch=*]" = "";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91184F151C1F2C4E00A83A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39DCBF2E842826EA42F33BEE /* Pods-Sonicwarper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3ZMMD22KG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sonicwarper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.audacious.Sonicwarper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		91184F161C1F2C4E00A83A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC99CA29EEB57595C4203027 /* Pods-Sonicwarper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 3ZMMD22KG2;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = Sonicwarper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = co.audacious.Sonicwarper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		91184F181C1F2C4E00A83A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF35884A0E923AA123E23F62 /* Pods-SonicwarperTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonicwarperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SonicwarperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonicwarper.app/Sonicwarper";
+			};
+			name = Debug;
+		};
+		91184F191C1F2C4E00A83A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536E161B26D2BCC8468F8CE2 /* Pods-SonicwarperTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SonicwarperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SonicwarperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sonicwarper.app/Sonicwarper";
+			};
+			name = Release;
+		};
+		91184F1B1C1F2C4E00A83A52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C672293AAD9F2C177AF17AC /* Pods-SonicwarperUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SonicwarperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SonicwarperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonicwarper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		91184F1C1C1F2C4E00A83A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9743DF76B25992D8FEA93F9 /* Pods-SonicwarperUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SonicwarperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SonicwarperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Sonicwarper;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91184EDF1C1F2C4D00A83A52 /* Build configuration list for PBXProject "Sonicwarper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91184F121C1F2C4E00A83A52 /* Debug */,
+				91184F131C1F2C4E00A83A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91184F141C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "Sonicwarper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91184F151C1F2C4E00A83A52 /* Debug */,
+				91184F161C1F2C4E00A83A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91184F171C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "SonicwarperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91184F181C1F2C4E00A83A52 /* Debug */,
+				91184F191C1F2C4E00A83A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91184F1A1C1F2C4E00A83A52 /* Build configuration list for PBXNativeTarget "SonicwarperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91184F1B1C1F2C4E00A83A52 /* Debug */,
+				91184F1C1C1F2C4E00A83A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		910C49771FEA9EEA00D41374 /* Sonicwarper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				910C49781FEA9EEA00D41374 /* Sonicwarper.xcdatamodel */,
+			);
+			currentVersion = 910C49781FEA9EEA00D41374 /* Sonicwarper.xcdatamodel */;
+			name = Sonicwarper.xcdatamodeld;
+			path = "Core Data/Sonicwarper.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 91184EDC1C1F2C4D00A83A52 /* Project object */;
+}
